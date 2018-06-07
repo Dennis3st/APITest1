@@ -1,0 +1,11 @@
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\bin\Debug\netcoreapp2.0\APITest1.deps.json
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\bin\Debug\netcoreapp2.0\APITest1.runtimeconfig.json
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\bin\Debug\netcoreapp2.0\APITest1.runtimeconfig.dev.json
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\bin\Debug\netcoreapp2.0\APITest1.dll
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\obj\Debug\netcoreapp2.0\APITest1.csprojAssemblyReference.cache
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\obj\Debug\netcoreapp2.0\APITest1.csproj.CoreCompileInputs.cache
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\obj\Debug\netcoreapp2.0\APITest1.AssemblyInfoInputs.cache
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\obj\Debug\netcoreapp2.0\APITest1.AssemblyInfo.cs
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\bin\Debug\netcoreapp2.0\APITest1.pdb
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\obj\Debug\netcoreapp2.0\APITest1.dll
+C:\Users\DennisHorstkamp\source\repos\APITest1\APITest1\obj\Debug\netcoreapp2.0\APITest1.pdb
