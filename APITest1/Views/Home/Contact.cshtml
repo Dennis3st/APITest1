@@ -1,8 +1,53 @@
-﻿@{
-    ViewData["Title"] = "Contact";
-}
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Squad App</title>
+</head>
+<body>
 
+    <div>
+        <h2>All Players</h2>
+        <ul id="squads" />
+    </div>
+    <div>
+        <h2>Search by ID</h2>
+        <input type="text" id="id" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <p id="product" />
+    </div>
 
+    <script src="http://api.football-api.com/2.0/team/9002?Authorization=565ec012251f932ea4000001d6578ace24c6409a64699d054cc0d4e4"></script>
+    <script>
 
+        $(document).ready(function () {
+            // Send an AJAX request
+            $.getJSON("http://api.football-api.com/2.0/team/9002?Authorization=565ec012251f932ea4000001d6578ace24c6409a64699d054cc0d4e4")
+                .done(function (data) {
+                    // On success, 'data' contains a list of products.
+                    $.each(data, function (key, item) {
+                        // Add a list item for the product.
+                        $('<li>', { text: formatItem(item) }).appendTo($('#squads'));
+                    });
+                });
+        });
+
+        function formatItem(item) {
+            return item.name + ': $' + item.age;
+        }
+
+        function find() {
+
+            $.getJSON("http://api.football-api.com/2.0/team/9002?Authorization=565ec012251f932ea4000001d6578ace24c6409a64699d054cc0d4e4")
+                .done(function (data) {
+                    $('#squads').text(formatItem(data));
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    $('#squads').text('Error: ' + err);
+                });
+
+        }
+
+    </script>
+
+</body>
+</html>
